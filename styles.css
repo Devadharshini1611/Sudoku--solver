@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#sudoku-grid {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#sudoku-grid td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: green;
+}
